@@ -1,0 +1,43 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center; /* Вертикальное центрирование */
+  height: 80vh; /* Высота контейнера равна высоте видимой части экрана */
+  width: 100vw; /* Ширина контейнера равна ширине видимой части экрана */
+  font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url(./images/bg.png);  
+  background-position: center center; /* Центрирование изображения по горизонтали и вертикали */
+  background-repeat: no-repeat; /* Отключение повторения изображения */
+  background-size: auto; /* Оставляем изображение в его оригинальном размере */
+  height: 100vh; /* Высота на весь видимый экран */
+  width: 100vw; /* Ширина на весь видимый экран */
+  margin: 0; /* Удаление отступов у body */  
+}
+
+div { 
+  text-align: center; /* Центрирование текста внутри div */
+}
+
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  color: #3C39EC;
+  margin: auto;
+
+}
+
+h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: center;
+  color: #3C39EC;
+  margin: auto;
+
+}

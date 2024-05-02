@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://code.s3.yandex.net/react/libs/react-18/react.development.js" crossorigin></script>
+  <script src="https://code.s3.yandex.net/react/libs/react-18/react-dom.development.js" crossorigin></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    const root = ReactDOM.createRoot(document.querySelector('#root'));
+    function timer() {
+      root.render(
+        React.createElement(
+          "div", 
+          null, 
+          React.createElement("h1", null, "Привет МИР!"),
+          React.createElement("h2", null, "Московское время:"),
+          React.createElement("h2", null, new Date().toLocaleTimeString())
+        ),              
+      )
+      
+    }
+    setInterval(timer, 1000); 
+  </script>
+</body>
+
+</html>
